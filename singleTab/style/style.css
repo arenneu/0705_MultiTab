@@ -17,16 +17,16 @@ div#wrap{
     border: 1px solid #000;
 }
 
-div#contents{
+/*div#contents{
     border: 2px solid #88f;
-}
+}*/
 
 #contents>div{
     width: 400px;
     height: 200px;
     padding: 6px;
     margin: 6px;
-    border: 1px solid #f80;
+    /*border: 1px solid #f80;*/
 }
 
 #contents button.tabBtn{
@@ -44,4 +44,28 @@ div#contents{
 div.tabContents{
     padding: 4px;
     border: 1px solid #aaa;
+}
+
+div#notice table{
+    width: 100%;
+    border-collapse: collapse;
+    /* td 구건 연결 = 테두리 선이 구분되는 것을 붕괴시킴, 1줄로 나타난다. */
+}
+
+div#notice td{
+    line-height: 36px;
+}
+
+div#notice td:first-child{
+    padding: 0 20px 0 10px;
+}
+
+div#notice tr:nth-child(2n-1) td {
+    background-color: #eee;
+}
+
+div#gallery>button.tabBtn{
+    border-bottom: 1px solid #aaa;
+    background-color: #eee;
+
 }
